@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="text-center">
+        <p><em>Erreur du serveur!</em></p>
+        <p>Une erreur s'est produite.</p>
+    </div>
+    <hr>
+    {% include 'store/search_form.html' %}
+    <hr>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="https://www.youtube.com/embed/F1hNuF6GlzQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+{% endblock %}

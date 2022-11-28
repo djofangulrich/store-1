@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+	<h2>DETAIL DU PRODUIT {{product.name}}</h2>
+    <p>Prix : {{product.price}}</p>
+    <p>Categorie : {{product.category}}</p>
+    <p>Marque : {{product.marque}}</p>
+{% endblock content %}
+
+{% include 'store/pagination.html' %}

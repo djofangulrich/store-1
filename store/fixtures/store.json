@@ -1,0 +1,771 @@
+[
+{
+  "model": "store.tag",
+  "pk": 1,
+  "fields": {
+    "name": "carousel"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 1,
+  "fields": {
+    "name": "Accessoire de t\u00e9l\u00e9phone"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 2,
+  "fields": {
+    "name": "Electrom\u00e9nager"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 3,
+  "fields": {
+    "name": "Electronique"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 4,
+  "fields": {
+    "name": "Alimentation"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 5,
+  "fields": {
+    "name": "V\u00eatement"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 6,
+  "fields": {
+    "name": "Bijoux"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 7,
+  "fields": {
+    "name": "Chaussure"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 8,
+  "fields": {
+    "name": "Boisson"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 10,
+  "fields": {
+    "name": "Accessoire"
+  }
+},
+{
+  "model": "store.marque",
+  "pk": 1,
+  "fields": {
+    "name": "Apple"
+  }
+},
+{
+  "model": "store.marque",
+  "pk": 2,
+  "fields": {
+    "name": "iphone"
+  }
+},
+{
+  "model": "store.marque",
+  "pk": 3,
+  "fields": {
+    "name": "Dior"
+  }
+},
+{
+  "model": "store.marque",
+  "pk": 4,
+  "fields": {
+    "name": "Versace"
+  }
+},
+{
+  "model": "store.marque",
+  "pk": 5,
+  "fields": {
+    "name": "Samsung"
+  }
+},
+{
+  "model": "store.marque",
+  "pk": 6,
+  "fields": {
+    "name": "Huawei"
+  }
+},
+{
+  "model": "store.marque",
+  "pk": 7,
+  "fields": {
+    "name": "Turtle Beach"
+  }
+},
+{
+  "model": "store.marque",
+  "pk": 8,
+  "fields": {
+    "name": "Go Sport"
+  }
+},
+{
+  "model": "store.marque",
+  "pk": 9,
+  "fields": {
+    "name": "Groov-e Bullet"
+  }
+},
+{
+  "model": "store.marque",
+  "pk": 10,
+  "fields": {
+    "name": "Olixar"
+  }
+},
+{
+  "model": "store.marque",
+  "pk": 11,
+  "fields": {
+    "name": "Scosche"
+  }
+},
+{
+  "model": "store.marque",
+  "pk": 12,
+  "fields": {
+    "name": "Oraimo"
+  }
+},
+{
+  "model": "store.marque",
+  "pk": 13,
+  "fields": {
+    "name": "Veho"
+  }
+},
+{
+  "model": "store.marque",
+  "pk": 14,
+  "fields": {
+    "name": "Cp-Link"
+  }
+},
+{
+  "model": "store.marque",
+  "pk": 15,
+  "fields": {
+    "name": "Sony"
+  }
+},
+{
+  "model": "store.marque",
+  "pk": 16,
+  "fields": {
+    "name": "Denon"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 1,
+  "fields": {
+    "name": "Coque iPhone 11 Olixar",
+    "slug": "Coque_iPhone_11_Olixar",
+    "price": 1500,
+    "category": 1,
+    "marque": 1,
+    "stock": 28,
+    "description": "<p>Coque iPhone 11 Olixar en silicone.</p>\r\n\r\n<p>Couleurs :</p>\r\n\r\n<ul>\r\n\t<li>Gris</li>\r\n\t<li>Rose Pastel</li>\r\n</ul>",
+    "tag": []
+  }
+},
+{
+  "model": "store.product",
+  "pk": 2,
+  "fields": {
+    "name": "casque gaming blanc",
+    "slug": "casque_gaming_wireless_blanc",
+    "price": 25000,
+    "category": 3,
+    "marque": 7,
+    "stock": 14,
+    "description": "<p><strong>Turtle Beach </strong>Stealth 600P Gen2 Wireless Gaming Headset - White</p>",
+    "tag": []
+  }
+},
+{
+  "model": "store.product",
+  "pk": 3,
+  "fields": {
+    "name": "Coque AirPods Noir",
+    "slug": "Coque_AirPods_Noir",
+    "price": 1000,
+    "category": 3,
+    "marque": 1,
+    "stock": 50,
+    "description": "<p>Coque AirPods Nomad en cuir v&eacute;ritable &ndash; Noir</p>",
+    "tag": []
+  }
+},
+{
+  "model": "store.product",
+  "pk": 4,
+  "fields": {
+    "name": "Adaptateur audio Samsung USB-C",
+    "slug": "Adaptateur_audio_Samsung_USB-C",
+    "price": 1500,
+    "category": 1,
+    "marque": 5,
+    "stock": 40,
+    "description": "<p>Adaptateur audio officiel Samsung Galaxy A71 USB-C vers 3.5mm</p>",
+    "tag": []
+  }
+},
+{
+  "model": "store.product",
+  "pk": 5,
+  "fields": {
+    "name": "Ecouteurs Bluetooth Plug N Noirs",
+    "slug": "ecouteurs-bluetooth-plug-n-noirs",
+    "price": 1600,
+    "category": 3,
+    "marque": 8,
+    "stock": 25,
+    "description": "<p>Ecouteurs Bluetooth Plug N Go Sports - Noirs</p>",
+    "tag": []
+  }
+},
+{
+  "model": "store.product",
+  "pk": 6,
+  "fields": {
+    "name": "\u00c9couteurs Samsung Sans fil \u2013 Blanc",
+    "slug": "ecouteurs-samsung-sans-fil-blanc",
+    "price": 2500,
+    "category": 1,
+    "marque": 5,
+    "stock": 30,
+    "description": "<p>&Eacute;couteurs officiels Samsung Galaxy Buds+ Sans fil &ndash; Blanc</p>",
+    "tag": []
+  }
+},
+{
+  "model": "store.product",
+  "pk": 7,
+  "fields": {
+    "name": "\u00c9couteurs Samsung Galaxy Buds+ Noir",
+    "slug": "ecouteurs-samsung-galaxy-buds-noir",
+    "price": 2500,
+    "category": 1,
+    "marque": 5,
+    "stock": 20,
+    "description": "<p>&Eacute;couteurs officiels Samsung Galaxy Buds+ Sans fil &ndash; Noir</p>",
+    "tag": []
+  }
+},
+{
+  "model": "store.product",
+  "pk": 8,
+  "fields": {
+    "name": "\u00c9couteurs bluetooth Groov-e Bullet\u2013 Argent",
+    "slug": "ecouteurs-bluetooth-groov-e-bullet-argent",
+    "price": 1500,
+    "category": 3,
+    "marque": 9,
+    "stock": 15,
+    "description": "<p>&Eacute;couteurs bluetooth Groov-e Bullet Buds Metal avec micro &ndash; Argent</p>",
+    "tag": []
+  }
+},
+{
+  "model": "store.product",
+  "pk": 9,
+  "fields": {
+    "name": "Adaptateur st\u00e9r\u00e9o Lightning \u2013 Blanc",
+    "slug": "adaptateur-stereo-lightning-blanc",
+    "price": 2000,
+    "category": 1,
+    "marque": 1,
+    "stock": 35,
+    "description": "<p>Adaptateur st&eacute;r&eacute;o officiel Apple Lightning vers 3.5mm &ndash; Blanc</p>",
+    "tag": []
+  }
+},
+{
+  "model": "store.product",
+  "pk": 10,
+  "fields": {
+    "name": "Prot\u00e8ge-c\u00e2bles universels \u2013 Noir & blanc \u2013 Pack de 6",
+    "slug": "protege-cables-universels-noir-blanc-pack-de-6",
+    "price": 3000,
+    "category": 10,
+    "marque": 10,
+    "stock": 14,
+    "description": "<p>Prot&egrave;ge-c&acirc;bles universels flexibles Olixar &ndash; Noir &amp; blanc &ndash; Pack de 6</p>",
+    "tag": []
+  }
+},
+{
+  "model": "store.product",
+  "pk": 11,
+  "fields": {
+    "name": "Adaptateur USB-C 3.5mm avec port de charge",
+    "slug": "adaptateur-usb-c-35mm-avec-port-de-charge",
+    "price": 5000,
+    "category": 3,
+    "marque": 11,
+    "stock": 32,
+    "description": "<p>Adaptateur USB-C 3.5mm Scosche avec port de charge USB-C &ndash; Noir</p>",
+    "tag": []
+  }
+},
+{
+  "model": "store.product",
+  "pk": 12,
+  "fields": {
+    "name": "Power Bank Oraimo 10000 mAh",
+    "slug": "power-bank-oraimo-10000-mah",
+    "price": 40000,
+    "category": 3,
+    "marque": 12,
+    "stock": 17,
+    "description": "<p>Power Bank Oraimo 10000 mAh - black and white</p>",
+    "tag": []
+  }
+},
+{
+  "model": "store.product",
+  "pk": 13,
+  "fields": {
+    "name": "Casque Bluetooth Veho ZB-5",
+    "slug": "casque-bluetooth-veho-zb-5",
+    "price": 25000,
+    "category": 3,
+    "marque": 13,
+    "stock": 0,
+    "description": "<p>Casque Bluetooth Veho ZB-5 Sans Fil - Noir</p>",
+    "tag": []
+  }
+},
+{
+  "model": "store.product",
+  "pk": 14,
+  "fields": {
+    "name": "Lot de haut parleur CP-link",
+    "slug": "lot-de-haut-parleur-cp-link",
+    "price": 120000,
+    "category": 3,
+    "marque": 14,
+    "stock": 10,
+    "description": "<p>Lot de haut parleur CP-link</p>\r\n\r\n<p>Caract&eacute;ristiques:</p>\r\n\r\n<ul>\r\n\t<li>Couleur : blanc;</li>\r\n</ul>",
+    "tag": [
+      1
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 15,
+  "fields": {
+    "name": "Olixar Genuine Leather iPhone 12 Pro Case",
+    "slug": "olixar-genuine-leather-iphone-12-pro-case",
+    "price": 1500,
+    "category": 1,
+    "marque": 1,
+    "stock": 33,
+    "description": "<p>Olixar Genuine Leather iPhone 12 Pro Case - all colors</p>",
+    "tag": []
+  }
+},
+{
+  "model": "store.product",
+  "pk": 16,
+  "fields": {
+    "name": "Family Pack",
+    "slug": "family-pack",
+    "price": 150000,
+    "category": 2,
+    "marque": 15,
+    "stock": 5,
+    "description": "<p>Pack Family</p>\r\n\r\n<ul>\r\n\t<li>Refrigirateur</li>\r\n\t<li>Ecran plat</li>\r\n\t<li>Machine &agrave; laver</li>\r\n\t<li>Laptop</li>\r\n\t<li>Micro-onde</li>\r\n</ul>",
+    "tag": [
+      1
+    ]
+  }
+},
+{
+  "model": "store.product",
+  "pk": 17,
+  "fields": {
+    "name": "Ultra HD Sounds",
+    "slug": "ultra-hd-sounds",
+    "price": 120000,
+    "category": 3,
+    "marque": 16,
+    "stock": 3,
+    "description": "<pre>\r\nUltra HD Sounds</pre>\r\n\r\n<p>Une cha&icirc;ne Hi-Fi Compl&egrave;te</p>",
+    "tag": [
+      1
+    ]
+  }
+},
+{
+  "model": "store.productimage",
+  "pk": 1,
+  "fields": {
+    "produit": 1,
+    "thumbnail": "store/product/Coque iPhone 11 Olixar/Coque_iPhone_11_Olixar_en_silicone__Gris.jpg"
+  }
+},
+{
+  "model": "store.productimage",
+  "pk": 2,
+  "fields": {
+    "produit": 1,
+    "thumbnail": "store/product/Coque iPhone 11 Olixar/Coque_iPhone_11_Olixar_en_silicone_doux__Rose_pastel.jpg"
+  }
+},
+{
+  "model": "store.productimage",
+  "pk": 3,
+  "fields": {
+    "produit": 13,
+    "thumbnail": "store/product/Casque Bluetooth Veho ZB-5/Casque_Bluetooth_Veho_ZB-5_Sans_Fil_-_Noir.jpg"
+  }
+},
+{
+  "model": "store.productimage",
+  "pk": 4,
+  "fields": {
+    "produit": 15,
+    "thumbnail": "store/product/Olixar Genuine Leather iPhone 12 Pro Case/Olixar_Genuine_Leather_iPhone_12_6CeZRvS.jpg"
+  }
+},
+{
+  "model": "store.productimage",
+  "pk": 5,
+  "fields": {
+    "produit": 15,
+    "thumbnail": "store/product/Olixar Genuine Leather iPhone 12 Pro Case/Olixar_Genuine_Leather_iPhone_12_GSsTMu1.jpg"
+  }
+},
+{
+  "model": "store.productimage",
+  "pk": 6,
+  "fields": {
+    "produit": 15,
+    "thumbnail": "store/product/Olixar Genuine Leather iPhone 12 Pro Case/Olixar_Genuine_Leather_iPhone_12_G6Rwb4o.jpg"
+  }
+},
+{
+  "model": "store.productimage",
+  "pk": 7,
+  "fields": {
+    "produit": 14,
+    "thumbnail": "store/product/Lot de haut parleur CP-link/hero-2-1.jpg"
+  }
+},
+{
+  "model": "store.productimage",
+  "pk": 8,
+  "fields": {
+    "produit": 12,
+    "thumbnail": "store/product/Power Bank Oraimo 10000 mAh/WhatsApp_Image_2022-01-06_at_21.47.32_2.jpeg"
+  }
+},
+{
+  "model": "store.productimage",
+  "pk": 9,
+  "fields": {
+    "produit": 11,
+    "thumbnail": "store/product/Adaptateur USB-C 3.5mm avec port de charge/Adaptateur_USB-C_3.5mm_Scosche__8iVvg90.jpg"
+  }
+},
+{
+  "model": "store.productimage",
+  "pk": 10,
+  "fields": {
+    "produit": 10,
+    "thumbnail": "store/product/Prot\u00e8ge-c\u00e2bles universels \u2013 Noir & blanc \u2013 Pack de 6/Prot\u00e8ge-c\u00e2bles_univer_rZhWAq5.jpg"
+  }
+},
+{
+  "model": "store.productimage",
+  "pk": 11,
+  "fields": {
+    "produit": 9,
+    "thumbnail": "store/product/Adaptateur st\u00e9r\u00e9o Lightning \u2013 Blanc/Adaptateur_st\u00e9r\u00e9o_officiel_Apple_Light_r7mVtnX.jpg"
+  }
+},
+{
+  "model": "store.productimage",
+  "pk": 12,
+  "fields": {
+    "produit": 8,
+    "thumbnail": "store/product/\u00c9couteurs bluetooth Groov-e Bullet\u2013 Argent/\u00c9couteurs_bluetooth_Groov-e_Bul_KeGuuhB.jpg"
+  }
+},
+{
+  "model": "store.productimage",
+  "pk": 13,
+  "fields": {
+    "produit": 7,
+    "thumbnail": "store/product/\u00c9couteurs Samsung Galaxy Buds+ Noir/\u00c9couteurs_officiels_Samsung_Galaxy_Bud_zdPTYjU.jpg"
+  }
+},
+{
+  "model": "store.productimage",
+  "pk": 14,
+  "fields": {
+    "produit": 6,
+    "thumbnail": "store/product/\u00c9couteurs Samsung Sans fil \u2013 Blanc/\u00c9couteurs_officiels_Samsung_Galaxy_Buds_Ute2j3N.jpg"
+  }
+},
+{
+  "model": "store.productimage",
+  "pk": 15,
+  "fields": {
+    "produit": 5,
+    "thumbnail": "store/product/Ecouteurs Bluetooth Plug N Noirs/Ecouteurs_Bluetooth_Plug_N_Go_Sports_-_Noirs.jpg"
+  }
+},
+{
+  "model": "store.productimage",
+  "pk": 16,
+  "fields": {
+    "produit": 4,
+    "thumbnail": "store/product/Adaptateur audio Samsung USB-C/Adaptateur_audio_officiel_Samsung_Galaxy_A7_sLMyEAd.jpg"
+  }
+},
+{
+  "model": "store.productimage",
+  "pk": 17,
+  "fields": {
+    "produit": 3,
+    "thumbnail": "store/product/Coque AirPods Noir/Coque_AirPods_Nomad_en_cuir_v\u00e9ritable__Noir.jpg"
+  }
+},
+{
+  "model": "store.productimage",
+  "pk": 18,
+  "fields": {
+    "produit": 2,
+    "thumbnail": "store/product/casque gaming blanc/Turtle_Beach_Stealth_600P_Gen2_Wireless_Gaming_Headset_-_White.jpg"
+  }
+},
+{
+  "model": "store.productimage",
+  "pk": 19,
+  "fields": {
+    "produit": 16,
+    "thumbnail": "store/product/Family Pack/hero-2-2.png"
+  }
+},
+{
+  "model": "store.productimage",
+  "pk": 20,
+  "fields": {
+    "produit": 17,
+    "thumbnail": "store/product/Ultra HD Sounds/hero-2-3.png"
+  }
+},
+{
+  "model": "store.customer",
+  "pk": 1,
+  "fields": {
+    "user": 2
+  }
+},
+{
+  "model": "store.customer",
+  "pk": 2,
+  "fields": {
+    "user": 1
+  }
+},
+{
+  "model": "store.customer",
+  "pk": 3,
+  "fields": {
+    "user": 3
+  }
+},
+{
+  "model": "store.customer",
+  "pk": 4,
+  "fields": {
+    "user": 4
+  }
+},
+{
+  "model": "store.customer",
+  "pk": 5,
+  "fields": {
+    "user": 5
+  }
+},
+{
+  "model": "store.customer",
+  "pk": 6,
+  "fields": {
+    "user": 6
+  }
+},
+{
+  "model": "store.customer",
+  "pk": 7,
+  "fields": {
+    "user": 7
+  }
+},
+{
+  "model": "store.customer",
+  "pk": 8,
+  "fields": {
+    "user": 8
+  }
+},
+{
+  "model": "store.customer",
+  "pk": 9,
+  "fields": {
+    "user": 9
+  }
+},
+{
+  "model": "store.order",
+  "pk": 1,
+  "fields": {
+    "customer": 1,
+    "date_ordered": "2022-05-25T22:35:07.879Z",
+    "complete": false,
+    "transaction_id": null
+  }
+},
+{
+  "model": "store.order",
+  "pk": 2,
+  "fields": {
+    "customer": 2,
+    "date_ordered": "2022-05-25T22:50:02.933Z",
+    "complete": false,
+    "transaction_id": null
+  }
+},
+{
+  "model": "store.order",
+  "pk": 3,
+  "fields": {
+    "customer": 4,
+    "date_ordered": "2022-05-27T15:24:02.739Z",
+    "complete": false,
+    "transaction_id": null
+  }
+},
+{
+  "model": "store.order",
+  "pk": 4,
+  "fields": {
+    "customer": 9,
+    "date_ordered": "2022-06-30T18:56:03.221Z",
+    "complete": false,
+    "transaction_id": null
+  }
+},
+{
+  "model": "store.order",
+  "pk": 5,
+  "fields": {
+    "customer": 8,
+    "date_ordered": "2022-07-04T15:17:09.110Z",
+    "complete": false,
+    "transaction_id": null
+  }
+},
+{
+  "model": "store.orderitem",
+  "pk": 9,
+  "fields": {
+    "product": 2,
+    "order": 2,
+    "quantity": 10,
+    "date_added": "2022-06-22T20:24:29.925Z"
+  }
+},
+{
+  "model": "store.orderitem",
+  "pk": 10,
+  "fields": {
+    "product": 1,
+    "order": 2,
+    "quantity": 5,
+    "date_added": "2022-06-22T20:24:36.927Z"
+  }
+},
+{
+  "model": "store.orderitem",
+  "pk": 11,
+  "fields": {
+    "product": 13,
+    "order": 2,
+    "quantity": 3,
+    "date_added": "2022-06-26T12:58:37.137Z"
+  }
+},
+{
+  "model": "store.orderitem",
+  "pk": 12,
+  "fields": {
+    "product": 5,
+    "order": 2,
+    "quantity": 2,
+    "date_added": "2022-06-26T13:03:15.294Z"
+  }
+},
+{
+  "model": "store.orderitem",
+  "pk": 13,
+  "fields": {
+    "product": 6,
+    "order": 2,
+    "quantity": 1,
+    "date_added": "2022-06-26T13:59:18.050Z"
+  }
+},
+{
+  "model": "store.orderitem",
+  "pk": 14,
+  "fields": {
+    "product": 9,
+    "order": 2,
+    "quantity": 1,
+    "date_added": "2022-06-26T14:00:39.191Z"
+  }
+},
+{
+  "model": "store.orderitem",
+  "pk": 15,
+  "fields": {
+    "product": 15,
+    "order": 2,
+    "quantity": 1,
+    "date_added": "2022-07-17T19:19:58.547Z"
+  }
+}
+]
