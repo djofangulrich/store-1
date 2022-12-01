@@ -13,3 +13,6 @@ env: DJANGO_SETTINGS_MODULE="core.settings.travis"
 
 services:
   - postgresql
+
+script:
+  - python manage.py test
