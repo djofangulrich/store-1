@@ -1,0 +1,41 @@
+{% extends 'store/base.html' %}
+
+{% block content %}
+  <hr>
+  <h1 class="intro-text text-center">{{ product.name }}</h1>
+  <hr class="detail-separator">
+  <div class="col-md-6">
+    <img src="{{ thumbnail }}" alt="{{ album_title }}" class="img-responsive" width="400">
+  </div>
+  <div class="col-md-6">
+    <h2 class="text-center artist_name">Ajoutez {{ product.name }} à votre panier </h2>
+    <p style="margin-bottom: 20px;">Description : {{ product.description }} </p>
+    <form class="form-inline" action="{% url 'store:detail_produit' produit_id=produit_id %}" method="post">
+      {% csrf_token %}
+      <div class="form-group {% if form.name.errors %}has-warning has-feedback{% endif %}">
+        <label for="{{ form.name.id_for_label }}" class="control-label">Nom</label>
+        <input type="text" name="name" value="" id="name">
+        {{ form.name }}
+      </div>
+      <div class="form-group {% if form.email.errors %}has-warning has-feedback{% endif %}">
+        <label for="{{ form.email.id_for_label }}" class="control-label">E-mail</label>
+        <input type="text" name="email" value="" id="email">
+        {{ form.email }}
+      </div>
+      <!--<input type="hidden" class="hidden" value="{{ produit_id }}" name="produit_id"> -->
+
+      <button type="submit" class="btn btn-success">Réserver</button>
+    </form>
+
+      {% if errors %}
+      <div>
+        {% for key, error in errors %}
+        {% autoescape off %}
+          {{ error }}
+        {% endautoescape %}
+        {% endfor %}
+      </div>
+      {% endif %}
+
+  </div>
+{% endblock content %}

@@ -2,14 +2,5 @@
 {% load static %}
 
 {% block content %}
-	<h2>LISTE DES PRODUITS</h2>
-    <p>
-        <ul>
-            {% for product in products %}
-                <li>{{product.name}}</li>
-            {% endfor %}
-        </ul>
-    </p>
+    {% include 'store/list.html' with list_title="liste des produits" %}
 {% endblock content %}
-
-{% include 'store/pagination.html' %}
